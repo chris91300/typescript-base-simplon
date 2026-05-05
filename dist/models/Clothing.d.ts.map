@@ -1,0 +1,1 @@
+{"version":3,"file":"Clothing.d.ts","sourceRoot":"","sources":["../../src/models/Clothing.ts"],"names":[],"mappings":"AAAA,OAAO,EAAE,YAAY,EAAE,MAAM,0BAA0B,CAAC;AACxD,OAAO,EAAE,OAAO,EAAE,MAAM,cAAc,CAAC;AAGvC,qBAAa,QAAS,SAAQ,OAAO;IACpC,IAAI,EAAE,YAAY,CAAkB;gBAExB,IAAI,EAAE,MAAM,EAAE,MAAM,EAAE,MAAM,EAAE,KAAK,EAAE,MAAM,EAAE,IAAI,EAAE,YAAY;IAK3E,cAAc;CAGd"}

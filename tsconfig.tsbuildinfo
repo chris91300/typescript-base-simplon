@@ -1,0 +1,1 @@
+{"root":["./src/main.ts","./src/enums/clothingsize.ts","./src/enums/shoesize.ts","./src/models/clothing.ts","./src/models/customer.ts","./src/models/idgenerator.ts","./src/models/order.ts","./src/models/product.ts","./src/models/shoes.ts"],"version":"6.0.3"}
