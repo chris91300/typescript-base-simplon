@@ -6,6 +6,7 @@ import { Shoes } from "./models/Shoes.js";
 
 const christophe = new Customer("Christophe", "mchristophe@gmail.com");
 const bastien = new Customer("Bastien", "bastienSimplon@gmail.com");
+const radin = new Customer("Radin", "radin@gmail.com");
 
 const pull = new Clothing("pull", 200, 30, ClothingSize.L);
 const pantalon = new Clothing("pantalon", 400, 40, ClothingSize.XL);
@@ -27,6 +28,9 @@ bastienOrder.addProduct(chaussette);
 bastienOrder.addProduct(nike);
 bastienOrder.addProduct(adidas);
 
+const radinOrder: Order = new Order(radin);
+
 christopheOrder.displayOrder();
 bastienOrder.displayOrder();
+radinOrder.displayOrder();
 

@@ -53,9 +53,15 @@ export class Order {
     }
 
     displayProductDetails(){
-        this.productList.forEach((product) => {
-            console.log(`-- ${product.displayDetails()}`);
-        })
+        if(this.productList.length != 0){
+            console.log("   PRODUITS");
+            this.productList.forEach((product) => {
+                console.log(`-- ${product.displayDetails()}`);
+            })
+        }else{
+            console.log("AUCUN PRODUIT DANS LE PANIER")
+        }
+        
     }
 
     displayTotalWeight(){

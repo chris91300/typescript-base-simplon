@@ -5,6 +5,7 @@ import { Order } from "./models/Order.js";
 import { Shoes } from "./models/Shoes.js";
 const christophe = new Customer("Christophe", "mchristophe@gmail.com");
 const bastien = new Customer("Bastien", "bastienSimplon@gmail.com");
+const radin = new Customer("Radin", "radin@gmail.com");
 const pull = new Clothing("pull", 200, 30, ClothingSize.L);
 const pantalon = new Clothing("pantalon", 400, 40, ClothingSize.XL);
 const chaussette = new Clothing("chaussette", 50, 5, ClothingSize.S);
@@ -21,6 +22,8 @@ bastienOrder.addProduct(pantalon);
 bastienOrder.addProduct(chaussette);
 bastienOrder.addProduct(nike);
 bastienOrder.addProduct(adidas);
+const radinOrder = new Order(radin);
 christopheOrder.displayOrder();
 bastienOrder.displayOrder();
+radinOrder.displayOrder();
 //# sourceMappingURL=main.js.map

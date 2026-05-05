@@ -41,15 +41,21 @@ export class Order {
         this.customer?.displayInfo();
     }
     displayProductDetails() {
-        this.productList.forEach((product) => {
-            console.log(`-- ${product.displayDetails()}`);
-        });
+        if (this.productList.length != 0) {
+            console.log("   PRODUITS");
+            this.productList.forEach((product) => {
+                console.log(`-- ${product.displayDetails()}`);
+            });
+        }
+        else {
+            console.log("AUCUN PRODUIT DANS LE PANIER");
+        }
     }
     displayTotalWeight() {
         console.log(`POIDS DU COLIS : ${(this.calculateWeight() / 1000).toFixed(1)} kg`);
     }
     displayTotalPrice() {
-        console.log(`TOTAL : ${this.calculateTotal().toFixed(2)}€`);
+        console.log(`TOTAL : ${this.calculateTotal().toFixed(2)} €`);
     }
 }
 //# sourceMappingURL=Order.js.map
